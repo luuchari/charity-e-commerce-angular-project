@@ -1,27 +1,36 @@
-# ECommerceAdminDashboard
+# E-Commerce-Admin-dashBord
+This is an Angular-based e-commerce dashboard application designed to manage and display products and users for a local bakery. It features an intuitive navigation bar for seamless access to various sections of the app.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+# Feature
+Login Page: Secure login page to access the dashboard.
+Products Page: Displays a list of products available in the e-commerce store.
+Users Page: Displays user information and allows user management.
+Navigation
+The navigation menu contains links to the following routes:
 
-## Development server
+Login: Access the login page where users can sign in.
+Products: Navigate to the products page to view and manage items in the store.
+Users: Navigate to the users page to manage user details.
+The routerLink directive is used to manage navigation between different components within the app. The routerLinkActive directive highlights the active route in the navigation menu for better user experience.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Setup
+Clone the repository: git clone <https://github.com/luuchari/charity-e-commerce-angular-project.git>
 
-## Code scaffolding
+Install dependencies:npm install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run the application:ng serve
 
-## Build
+Open the app in your browser at http://localhost:4200.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Technologies used
+Angular: Framework for building dynamic web applications.
+HTML: For building the structure of the application.
+TypeScript: Language used for writing the app's logic.
+CSS: For styling the app's components and layout.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
